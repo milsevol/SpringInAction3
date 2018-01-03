@@ -7,7 +7,7 @@ import org.junit.Test;
 public class BraveKnightTest {
     @Test
     public void knightShouldEmbarkOnQuest() throws QuestException {
-        // mock一个Quest
+        // mock一个Quest，mock意思为模拟
         Quest mockQuest = mock(Quest.class);
 
 
