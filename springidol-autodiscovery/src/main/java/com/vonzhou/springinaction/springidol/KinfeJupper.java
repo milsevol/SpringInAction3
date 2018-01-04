@@ -13,6 +13,7 @@ import java.util.Set;
  */
 @Component("kinfeJupper")
 public class KinfeJupper {
+
     private Set<Knife> knives;
 
     @Inject
