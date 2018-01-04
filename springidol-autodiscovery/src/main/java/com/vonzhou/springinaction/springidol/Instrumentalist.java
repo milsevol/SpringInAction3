@@ -5,7 +5,6 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component("eddie")
-@Qualifier("guitar")
 public class Instrumentalist implements Performer {
   // ...
   public void perform() throws PerformanceException {
@@ -13,6 +12,7 @@ public class Instrumentalist implements Performer {
   }
 
   @Autowired
+  @Qualifier("Guitar2")
   private Instrument instrument;
 
 

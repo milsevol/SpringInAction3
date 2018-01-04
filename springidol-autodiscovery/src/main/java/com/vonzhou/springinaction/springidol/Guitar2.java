@@ -2,9 +2,9 @@ package com.vonzhou.springinaction.springidol;
 
 import org.springframework.stereotype.Component;
 
-@Component("Guitar")
-public class Guitar implements Instrument {
+@Component("Guitar2")
+public class Guitar2 implements Instrument {
   public void play() {
-    System.out.println("Guitar strum strum");
+    System.out.println("Guitar2 strum strum");
   }
 }
