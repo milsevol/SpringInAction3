@@ -12,5 +12,8 @@ public class MagicianMain {
         ApplicationContext context = new ClassPathXmlApplicationContext("sneaky-magician.xml");
         Thinker volunteer = (Thinker)context.getBean("volunteer");
         volunteer.thinkOfSomething("I want to play basketball, en");
+        Magician magician = (Magician)context.getBean("magician");
+        System.out.println("magician get thoughts:"+magician.getThoughts());
+
     }
 }
