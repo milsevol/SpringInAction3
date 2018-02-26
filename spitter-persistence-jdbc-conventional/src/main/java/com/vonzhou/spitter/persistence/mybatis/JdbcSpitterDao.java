@@ -87,7 +87,7 @@ public class JdbcSpitterDao implements
                 spitter = new Spitter();
                 spitter.setId(rs.getLong("id"));
                 spitter.setUsername(rs.getString("username"));
-                spitter.setPassword(rs.getString("password"));
+        //        spitter.setPassword(rs.getString("password"));
                 spitter.setFullName(rs.getString("fullname"));
             }
             return spitter;

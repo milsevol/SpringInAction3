@@ -22,8 +22,8 @@ public class Main {
 
       //  Spitter spitter = dao.getSpitterById(1);
       //  System.out.println(spitter.getUsername());
-        Spitter spitter = dao.getSpitterById(2);
-        System.out.println(spitter.getUsername());
+        Spitter spitter = dao.getSpitterById(5);
+        System.out.println(spitter.getFullName());
 
     }
 }
