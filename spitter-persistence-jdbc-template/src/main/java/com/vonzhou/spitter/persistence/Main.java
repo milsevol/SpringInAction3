@@ -8,7 +8,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class Main {
     public static void main(String[] args) {
-        test3();
+        test1();
     }
 
     public static void test1(){
@@ -45,7 +45,7 @@ public class Main {
         SpitterDao dao = (SpitterDao)context.getBean("spitterDao3");
 
         Spitter s = new Spitter();
-        s.setFullName("Feng zhou");
+        s.setFullName("Feng zhou1");
         s.setUsername("zhou");
         s.setEmail("444333@qq.com");
         s.setPassword("123456");
