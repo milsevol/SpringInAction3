@@ -12,17 +12,18 @@ public class Main {
         JdbcSpitterDao dao = (JdbcSpitterDao)context.getBean("jdbcSpitterDao");
 
 
-        Spitter s = new Spitter();
-        s.setFullName("vonzhou");
-        s.setUsername("chown");
-        s.setEmail("2332123@qq.com");
-        s.setPassword("123456");
+//        Spitter s = new Spitter();
+//        s.setFullName("崔雪勇");
+//        s.setUsername("chown");
+//        s.setEmail("109@qq.com");
+//        s.setPassword("jsdkfj");
+//
+//        dao.addSpitter(s);
 
-        dao.addSpitter(s);
-
-        Spitter spitter = dao.getSpitterById(1);
+      //  Spitter spitter = dao.getSpitterById(1);
+      //  System.out.println(spitter.getUsername());
+        Spitter spitter = dao.getSpitterById(2);
         System.out.println(spitter.getUsername());
-
 
     }
 }
