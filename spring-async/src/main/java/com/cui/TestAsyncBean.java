@@ -1,5 +1,6 @@
 package com.cui;
 
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;
 
 /**
@@ -10,6 +11,12 @@ public class TestAsyncBean {
 
     public void sayHello4() throws InterruptedException {
         Thread.sleep(2 * 1000);//网络连接中 。。。消息发送中。。。
-        System.out.println("先来一个同步调用");
+        System.out.println("我爱你啊!");
+    }
+    
+    @Async
+    public void sayHello3() throws InterruptedException {
+        Thread.sleep(2 * 1000);//网络连接中 。。。消息发送中。。。
+        System.out.println("我爱你啊!");
     }
 }
