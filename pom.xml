@@ -43,7 +43,7 @@
         <module>spitter-web-aop2</module>
 
         <module>spring-interceptor</module>
-
+        <module>spring-async</module>
 
         <!--这是一个空的Spring项目,需要的时候复制我,然后实现对应的逻辑-->
         <module>spring-project-empty</module>
